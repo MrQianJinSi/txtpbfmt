@@ -1,4 +1,4 @@
-module github.com/protocolbuffers/txtpbfmt
+module github.com/mrqianjinsi/txtpbfmt
 
 go 1.13
 
