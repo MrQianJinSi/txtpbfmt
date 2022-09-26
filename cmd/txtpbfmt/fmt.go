@@ -13,7 +13,7 @@ import (
 	"flag"
 	// Google internal base/go package, commented out by copybara
 	log "github.com/golang/glog"
-	"github.com/mrqinajinsi/txtpbfmt/parser"
+	"github.com/mrqianjinsi/txtpbfmt/parser"
 )
 
 var (
