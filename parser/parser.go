@@ -1343,7 +1343,7 @@ func ByFieldOrder(name string, fieldOrder []string, unsortedCollector UnsortedFi
 		}
 		getNodePriority := func(node *ast.Node) int {
 			// CommentOnly nodes don't set priority below, and default to MaxInt, which keeps them at the bottom
-			prio := math.MaxInt
+			prio := math.MaxInt64
 
 			// Unknown fields will get the int nil value of 0 from the order map, and bubble to the top.
 			if !node.IsCommentOnly() {
